@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     async function fetchJokes() {
-        const apiUrl = "https://v2.jokeapi.dev/joke/Any?lang=es&blacklistFlags=racist&type=twopart&amount=10";
+        const apiUrl = "https://v2.jokeapi.dev/joke/Any?lang=es&blacklistFlags=nsfw&type=twopart&idRange=6&amount=10";
 
         try {
             const response = await fetch(apiUrl);
